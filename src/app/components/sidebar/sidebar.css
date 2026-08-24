@@ -1,0 +1,78 @@
+.container {
+  flex-direction: column;
+  height: 100vh;
+  width: 200px;
+  border-right: 1px solid #ccc;
+  background-color: #7845e5;
+}
+.title{
+  font-size: 1.9rem;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  margin-top: 1rem;
+}
+.container { 
+    display: flex; 
+}
+.sidebar-nav ul {
+  list-style: none;
+  margin: 0;
+}
+.sidebar-nav li {
+  padding-left: 56px;
+}
+.divider {
+  height: 1px;
+  margin: 0.5rem 0;
+}
+.sidebar-nav .nav-item {
+  display: flex;
+  align-items: center;
+  padding: 0.4rem;
+  color: #fff;
+  text-decoration: none;
+}
+.sidebar-nav .nav-item:hover,
+.sidebar-nav .nav-item.active {
+  background: rgba(255,255,255,0.06);
+}
+.sidebar-nav .label { 
+    font-size: 0.9rem; 
+}
+
+/* Icon sizing for inline SVG/IMG icons */
+.icon-placeholder .icon,
+.icon-placeholder img.icon {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  object-fit: contain;
+}
+.separator {
+  border: none;
+  height: 1px;
+  background: rgba(255,255,255,0.12);
+  margin: 0.5rem 0;
+  margin-left: -25px;
+}
+.upgrade-card{
+    height: 130px;
+    width: 85%;
+    background-color: #252fdd;
+    margin: 60px auto 0 auto;
+    border-radius: 15px;
+}
+p{
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+}
+.icon-placeholder .icon,
+.icon-placeholder img.icon {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    object-fit: contain;
+    padding-right: 10px;
+}
