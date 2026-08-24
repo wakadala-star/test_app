@@ -16,6 +16,7 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
+            "baseHref": "/test_app/",
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
             "assets": [
