@@ -1,0 +1,43 @@
+.navbar {
+	display: flex;
+	align-items: center;
+	min-height: 92px;
+	padding: 1.25rem 2rem;
+	border-bottom: 1px solid #e5e7ef;
+	background: #fff;
+}
+
+.nav-links {
+	display: flex;
+	align-items: center;
+	gap: 0.9rem;
+	min-width: 0;
+}
+
+.menu-button {
+	display: inline-grid;
+	place-items: center;
+	width: 2.5rem;
+	height: 2.5rem;
+	padding: 0;
+	border: 0;
+	border-radius: 0.5rem;
+	color: #4d566b;
+	background: transparent;
+	font-size: 1.25rem;
+	cursor: pointer;
+}
+
+.menu-button:hover,
+.menu-button:focus-visible {
+	color: #1d2330;
+	background: #f1f3f8;
+	outline: none;
+}
+
+h1 {
+	margin: 0;
+	color: #1d2330;
+	font-size: clamp(1.35rem, 2vw, 1.75rem);
+	line-height: 1.2;
+}
